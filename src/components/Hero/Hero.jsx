@@ -40,8 +40,8 @@ const Hero = () => {
               animate="animate"
               className="text-3xl lg:text-5xl font-bold !leading-snug"
             >
-              Let's Learn to build a{" "}
-              <span className="text-secondary">Website</span> for your business
+              Lets Transform  the {" "} 
+              <span className="text-secondary">Service Industry!</span>
             </motion.h1>
             <motion.div
               variants={FadeUp(0.8)}
@@ -50,7 +50,7 @@ const Hero = () => {
               className="flex justify-center md:justify-start"
             >
               <button className="primary-btn flex items-center gap-2 group">
-                Get Started
+                Hire Now
                 <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
               </button>
             </motion.div>

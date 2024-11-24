@@ -1,5 +1,6 @@
 import React from "react";
 import BannerPng from "../../assets/banner.png";
+import Register from "../../assets/register.png";
 import { motion } from "framer-motion";
 
 const Banner2 = () => {
@@ -14,15 +15,13 @@ const Banner2 = () => {
         >
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
             <h1 className="text-4xl font-bold !leading-snug">
-              Join Our Community to Start your Journey
+              Join Our Platform to Start your Professional Career
             </h1>
             <p className="text-dark2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae iusto minima ad ut id eos accusantium aut, aperiam quis
-              incidunt!
+            Just like <span className="font-bold">Uber and Ola </span> simplified transportation, <span className="font-bold">Zomato</span>  made resturant accessible at your fingertips, and <span className="font-bold">OYO</span> gave online presence to hotels, Fix It Now aims to transform the service industry. 
             </p>
             <a
-              href="https://chat.whatsapp.com/FQSKgJ5f1eIAhlyF5sVym0"
+              href="#"
               className="primary-btn !mt-8"
             >
               Join Now
@@ -34,9 +33,9 @@ const Banner2 = () => {
           <motion.img
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            src={BannerPng}
+            src={Register}
             alt=""
-            className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+            className="w-[350px] md:w-full object-cover drop-shadow"
           />
         </div>
       </div>

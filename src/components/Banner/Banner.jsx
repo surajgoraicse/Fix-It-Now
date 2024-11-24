@@ -5,6 +5,8 @@ import { MdOutlineAccessTime } from "react-icons/md";
 import { FaBookReader } from "react-icons/fa";
 import { FadeUp } from "../Hero/Hero";
 import { motion } from "framer-motion";
+import CivilImg from "../../assets/civil.png"
+import Job from "../../assets/job4.png"
 
 const Banner = () => {
   return (
@@ -17,9 +19,9 @@ const Banner = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            src={BannerPng}
+            src={Job}
             alt=""
-            className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+            className=" w-full object-cover "
           />
         </div>
         {/* Banner Text */}
@@ -32,7 +34,7 @@ const Banner = () => {
               transition={{ duration: 0.5 }}
               className="text-3xl md:text-4xl font-bold !leading-snug"
             >
-              The World's Leading Online learning Platform
+              The World's Leading Online Platform for Professionals.
             </motion.h1>
             <div className="flex flex-col gap-6">
               <motion.div
@@ -43,7 +45,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <FaBookReader className="text-2xl" />
-                <p className="text-lg">10,000+ Courses</p>
+                <p className="text-lg">10,000+ Happy Customer</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.4)}
@@ -53,7 +55,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <GrUserExpert className="text-2xl" />
-                <p className="text-lg">Expert Instruction</p>
+                <p className="text-lg">Expert Professionals</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.6)}
@@ -63,7 +65,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <MdOutlineAccessTime className="text-2xl" />
-                <p className="text-lg">Lifetime Access</p>
+                <p className="text-lg">Fast Service</p>
               </motion.div>
             </div>
           </div>

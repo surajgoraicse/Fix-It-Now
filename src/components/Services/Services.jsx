@@ -6,41 +6,47 @@ import { IoMdHappy } from "react-icons/io";
 import { BiSupport } from "react-icons/bi";
 import { IoPulseOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
+import { GiMechanicGarage } from "react-icons/gi";
+import { FaTools } from "react-icons/fa";
+import { GiHandSaw } from "react-icons/gi";
+import { GiElectricalResistance } from "react-icons/gi";
+import { MdGirl } from "react-icons/md";
+import { IoSparklesSharp } from "react-icons/io5";
 
 const ServicesData = [
   {
     id: 1,
-    title: "Web Development",
+    title: "Electricians",
     link: "#",
-    icon: <TbWorldWww />,
+    icon: <GiElectricalResistance />,
     delay: 0.2,
   },
   {
     id: 2,
-    title: "Mobile development",
+    title: "Plumber",
     link: "#",
-    icon: <CiMobile3 />,
+    icon: <FaTools />,
     delay: 0.3,
   },
   {
     id: 3,
-    title: "Software development",
+    title: "Carpenter",
     link: "#",
-    icon: <RiComputerLine />,
+    icon: <GiHandSaw />,
     delay: 0.4,
   },
   {
     id: 4,
-    title: "Satisfied clients",
+    title: "Mechanics",
     link: "#",
-    icon: <IoMdHappy />,
+    icon: <GiMechanicGarage />,
     delay: 0.5,
   },
   {
     id: 5,
-    title: "SEO optimization",
+    title: "Beauty Articians",
     link: "#",
-    icon: <IoPulseOutline />,
+    icon: <IoSparklesSharp />,
     delay: 0.6,
   },
   {
