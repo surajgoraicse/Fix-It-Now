@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Blob from "../../assets/blob.svg";
-import HeroPng from "../../assets/hero.png";
+// import HeroPng from "../../assets/hero.png";
+import HeroPng from "../../assets/service.png";
 import { animate, motion } from "framer-motion";
 
 export const FadeUp = (delay) => {
@@ -63,7 +64,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4, ease: "easeInOut" }}
             src={HeroPng}
             alt=""
-            className="w-[400px] xl:w-[600px] relative z-10 drop-shadow"
+            className="w-[400px] xl:w-full relative z-10 drop-shadow"
           />
           <motion.img
             initial={{ x: -50, opacity: 0 }}
